@@ -14,7 +14,7 @@ event Transfer(address indexed from, address indexed to, uint amount);
 event Approval(address indexed owner, address indexed spender, uint amount);
 }
 
-// LINK TOKEN 
+//BNB  TOKEN 
 contract ERC20_BNB is IERC20{
   uint public totalsupply=30000;
   mapping(address=> uint) public balance;
